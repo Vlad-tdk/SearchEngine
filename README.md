@@ -101,7 +101,7 @@ This project is licensed under the MIT License.
 
 ## Authors
 
-- **Vladimir Martemianov** - Initial work
+- **Vladimir** - Initial work
 
 ---
 
