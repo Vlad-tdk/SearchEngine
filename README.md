@@ -15,7 +15,7 @@ This project implements a search engine for a corporate portal, allowing users t
 - C++ compiler with C++20 support
 - CMake 3.29 or higher
 - [Google Test](https://github.com/google/googletest) (included via FetchContent)
-- [nlohmann/json](https://github.com/nlohmann/json) (included via FetchContent)
+- [nlohmann/json](https://github.com/nlohmann/json)
 
 ## Installation
 
