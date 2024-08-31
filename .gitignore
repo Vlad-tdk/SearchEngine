@@ -1,0 +1,51 @@
+# Игнорируем системные файлы
+.DS_Store
+Thumbs.db
+
+# Игнорируем все папки сборки
+build/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# Игнорируем файлы конфигурации IDE
+.idea/
+.vscode/
+*.code-workspace
+*.iml
+
+# Игнорируем файлы и папки, создаваемые CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Игнорируем исполняемые файлы и другие артефакты сборки
+*.exe
+*.out
+*.app
+*.o
+*.obj
+*.so
+*.dylib
+*.lib
+*.a
+
+# Игнорируем логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+tests/Testing/
+
+!src/
+!headers/
+
+nlohmann_json/**
+
+!nlohmann_json/
