@@ -15,7 +15,7 @@ This project implements a search engine for a corporate portal, allowing users t
 - C++ compiler with C++20 support
 - CMake 3.29 or higher
 - [Google Test](https://github.com/google/googletest) (included via FetchContent)
-- [nlohmann/json](https://github.com/nlohmann/json)
+- [nlohmann/json](https://github.com/nlohmann/json)(included local)
 
 ## Installation
 
@@ -26,10 +26,9 @@ This project implements a search engine for a corporate portal, allowing users t
    cd SearchEngine
    ```
 2. **Dependencies**:
-The project requires the nlohmann/json library. To install it, follow these steps:
-
-Download the nlohmann/json repository as a .zip file from this link.
-Extract the contents of the archive into the root of the project.
+The project requires the nlohmann/json library. It is installed locally. To update it, follow these steps:
+Download the nlohmann/json repository as a ZIP file from this link.
+Unpack the contents of the archive into the root of the project.
 Rename the nlohmann-develop folder to nlohmann_json.
 
 3. **Build the project**:
