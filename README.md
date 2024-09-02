@@ -1,7 +1,7 @@
 
 # Search Engine Project
 
-This project implements a search engine for a corporate portal, allowing users to search through a set of documents for relevant information. The search engine processes documents, indexes them, and returns the most relevant results based on user queries.
+This project implements a search engine for a corporate portal, allowing users to search through a set of documents for relevant information. The search engine processes documents, indexes them, and returns the most relevant results based on user queries. C++
 
 ## Features
 
@@ -15,7 +15,7 @@ This project implements a search engine for a corporate portal, allowing users t
 - C++ compiler with C++20 support
 - CMake 3.29 or higher
 - [Google Test](https://github.com/google/googletest) (included via FetchContent)
-- [nlohmann/json](https://github.com/nlohmann/json) (included via FetchContent)
+- [nlohmann/json](https://github.com/nlohmann/json)
 
 ## Installation
 
@@ -25,8 +25,14 @@ This project implements a search engine for a corporate portal, allowing users t
    git clone https://github.com/yourusername/SearchEngine.git
    cd SearchEngine
    ```
+2. **Dependencies**:
+The project requires the nlohmann/json library. To install it, follow these steps:
 
-2. **Build the project**:
+Download the nlohmann/json repository as a .zip file from this link.
+Extract the contents of the archive into the root of the project.
+Rename the nlohmann-develop folder to nlohmann_json.
+
+3. **Build the project**:
 
    ```bash
    mkdir build
@@ -35,7 +41,7 @@ This project implements a search engine for a corporate portal, allowing users t
    cmake --build .
    ```
 
-3. **Copy necessary JSON files**:
+4. **Copy necessary JSON files**:
 
    Ensure that `config.json` and `requests.json` are copied to the `build` directory:
 
@@ -101,7 +107,7 @@ This project is licensed under the MIT License.
 
 ## Authors
 
-- **Vladimir Martemianov** - Initial work
+- **Vladimir** - Initial work
 
 ---
 
