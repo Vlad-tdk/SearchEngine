@@ -69,7 +69,12 @@ void InvertedIndex::UpdateDocumentBase(const std::vector<std::string>& input_doc
     try {
         std::lock_guard<std::mutex> lock(mtx); // Защита от одновременного чтения и записи
         if (freq_dictionary.contains(word)) {
-            return freq_dictionary.at(word);
+            auto result = freq_dictionary.at(word);
+            // Сортируем результаты по doc_id для обеспечения предсказуемого порядка
+            std::sort(result.begin(), result.end(), [](const Entry& a, const Entry& b) {
+                return a.doc_id < b.doc_id;
+            });
+            return result;
         } else {
             return {};
         }
