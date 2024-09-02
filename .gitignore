@@ -46,6 +46,3 @@ tests/Testing/
 !src/
 !headers/
 
-nlohmann_json/**
-
-!nlohmann_json/
