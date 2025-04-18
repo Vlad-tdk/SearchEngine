@@ -106,7 +106,7 @@ This project is licensed under the MIT License.
 
 ## Authors
 
-- **Vladimir** - Initial work
+- **Vladimir**
 
 ---
 
